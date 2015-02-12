@@ -41,6 +41,7 @@
 		342F979DA15866BB8A70CC23 /* ORStackView+ArtsyViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F9F32AB53EF2503473315 /* ORStackView+ArtsyViews.m */; };
 		342F97CF4D0BD118671622A0 /* ARFairMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F9559FD6EB9419E3CEE68 /* ARFairMapAnnotationView.m */; };
 		342F9841DEB316C8E4E3C68B /* ARValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F90BFE6268BEBC0E7BB2E /* ARValueTransformer.m */; };
+		342F9846CEB0A13EC16983C2 /* ARFairMapPreviewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F9221BA87C23992E3C8F5 /* ARFairMapPreviewButton.m */; };
 		342F98EAAAAA4C3264E90CD2 /* ARGeneArtworksNetworkModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F93F91FB4ACCDC29EB901 /* ARGeneArtworksNetworkModelTests.m */; };
 		342F995E23C13C290DEFF23D /* ARScrollNavigationChief.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F98A73E2E1162514B5A24 /* ARScrollNavigationChief.m */; };
 		342F996B2CF23951168534AD /* Follow.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F92FE487AC8FCA43F5C74 /* Follow.m */; };
@@ -387,7 +388,6 @@
 		60F1C51B17C11303000938F7 /* ARGeneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F1C51A17C11303000938F7 /* ARGeneViewController.m */; };
 		60F8FFC1197E773E00DC3869 /* ARArtworkSetViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F8FFC0197E773E00DC3869 /* ARArtworkSetViewControllerSpec.m */; };
 		60FAEF43179843080031C88B /* ARFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FAEF42179843080031C88B /* ARFavoritesViewController.m */; };
-		6C55DE07E86540899869A357 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7BAB70E261299573481071A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AABCA8DF484E65EF3CC11FA /* libPods.a */; };
 		B30FEF5A181EEA47009E4EAD /* ARBidButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FEF59181EEA47009E4EAD /* ARBidButtonTests.m */; };
 		B316E2F418170DF40086CCDB /* SaleArtwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B316E2F318170DF40086CCDB /* SaleArtwork.m */; };
@@ -536,6 +536,7 @@
 		342F918CC4304843C82ED43C /* ARBidButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARBidButton.h; sourceTree = "<group>"; };
 		342F919D0897DFE221EC5E73 /* ARFeedStatusIndicatorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARFeedStatusIndicatorTableViewCell.m; sourceTree = "<group>"; };
 		342F91AA54E8417472868A61 /* UIViewController+FullScreenLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FullScreenLoading.h"; sourceTree = "<group>"; };
+		342F9221BA87C23992E3C8F5 /* ARFairMapPreviewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARFairMapPreviewButton.m; sourceTree = "<group>"; };
 		342F924737155CB0C5A439F9 /* UIViewController+FullScreenLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FullScreenLoading.m"; sourceTree = "<group>"; };
 		342F92647D726C0DC289B1F3 /* ARFairMapViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARFairMapViewControllerTests.m; sourceTree = "<group>"; };
 		342F92656D83DA29BDA2094D /* ArtsyAPI+Shows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtsyAPI+Shows.h"; sourceTree = "<group>"; };
@@ -573,6 +574,7 @@
 		342F96AD6F2466A26A3152F8 /* ORStackView+ArtsyViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ORStackView+ArtsyViews.h"; sourceTree = "<group>"; };
 		342F96B30465B8B7722DBD1D /* UIImage+ImageFromColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageFromColor.h"; sourceTree = "<group>"; };
 		342F96EF94FE8A32662F8BF1 /* ARTrialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTrialController.m; sourceTree = "<group>"; };
+		342F97127AE824CDB117CF67 /* ARFairMapPreviewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARFairMapPreviewButton.h; sourceTree = "<group>"; };
 		342F972963924EC91C9B5CFD /* ARFollowableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARFollowableButton.h; sourceTree = "<group>"; };
 		342F9737E2E62CEC8B68D181 /* ARFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARFileUtils.h; sourceTree = "<group>"; };
 		342F976360A7DAA65AF7D755 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
@@ -1410,7 +1412,6 @@
 				B3ECE8281819D1E6009F5C5B /* XCTest.framework in Frameworks */,
 				B3ECE82A1819D1E6009F5C5B /* UIKit.framework in Frameworks */,
 				B3ECE8291819D1E6009F5C5B /* Foundation.framework in Frameworks */,
-				6C55DE07E86540899869A357 /* (null) in Frameworks */,
 				DCA78A9CCA74D94C34C35156 /* libPods-Artsy Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2504,6 +2505,8 @@
 				E61B703719904D9F00260D29 /* ARTopTapThroughTableView.h */,
 				E61B703819904D9F00260D29 /* ARTopTapThroughTableView.m */,
 				062C201A16DD76A30095A7EC /* Image */,
+				342F9221BA87C23992E3C8F5 /* ARFairMapPreviewButton.m */,
+				342F97127AE824CDB117CF67 /* ARFairMapPreviewButton.h */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -3996,6 +3999,7 @@
 				5E284609194A2E58007274AB /* ARFairGuideContainerViewController.m in Sources */,
 				342F9CF7231DFEF359B2D829 /* ARFollowableButton.m in Sources */,
 				342F9654C7AF4AEF8C21BC11 /* ARActionButtonsView.m in Sources */,
+				342F9846CEB0A13EC16983C2 /* ARFairMapPreviewButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

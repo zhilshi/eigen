@@ -191,7 +191,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     SearchResult *result = self.contentArray[indexPath.row];
-    _resultsHistory = [self.resultsHistory arrayByAddingObject:result];
+    _resultsHistory = [@[result] arrayByAddingObjectsFromArray: self.resultsHistory];
 
     NSString *path = [ARFileUtils appDocumentsPathWithFolder:@"dev" filename:@"quicksilver_history"];
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:self.resultsHistory];
