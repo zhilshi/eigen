@@ -124,7 +124,13 @@ beta: stamp_date deploy
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 
 pr: 
-	if [ "$(BRANCH)" == "master" ]; then echo "In master, not PRing"; else git push upstream "$(BRANCH)"; open -a "Google Chrome" "https://github.com/artsy/eigen/pull/new/artsy:master...$(BRANCH)"; fi
+	if [ "$(BRANCH)" == "master" ]; then echo "In master, not PRing"; else git push upstream "$(USERNAME)-$(BRANCH)"; open -a "Google Chrome" "https://github.com/artsy/eigen/pull/new/artsy:master...$(USERNAME)-$(BRANCH)"; fi
+
+push: 
+	if [ "$(BRANCH)" == "master" ]; then echo "In master, not pushing"; else git push upstream "$(USERNAME)-$(BRANCH)";
+
+fpush: 
+	if [ "$(BRANCH)" == "master" ]; then echo "In master, not pushing"; else git push upstream "$(USERNAME)-$(BRANCH)" --force;
 
 setup:
 	mkdir -p .git/hooks
