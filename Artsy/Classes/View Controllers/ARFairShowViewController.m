@@ -12,6 +12,7 @@
 #import "ARArtworkSetViewController.h"
 #import "ARShowNetworkModel.h"
 #import "ORStackView+ArtsyViews.h"
+#import "ARFairMapPreviewButton.h"
 
 NS_ENUM(NSInteger, ARFairShowViewIndex){
     ARFairShowViewHeader = 1,
