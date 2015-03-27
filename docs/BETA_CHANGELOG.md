@@ -2,6 +2,7 @@
 
 * Fix a crash caused by the assumption that an artwork will always have a artist - alloy
 * Browse renamed to Explore - 1aurabrown
+* Logout and switching servers now completely exits app - 1aurabrown
 
 ## 2015.03.20
 
